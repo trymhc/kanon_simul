@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local settings
+.env
+
+# Generated simulator output (the example image lives in docs/)
+/kanon_sim*.png
+/*.png
+
+# YOLO model weights (downloaded or exported automatically)
+*.pt
+*.onnx
+*.engine
+*.hef
+
+# Recordings and logs from the Pi
+*.h264
+*.mp4
+*.log
+logs/
+
+# Editors
+.vscode/
+.idea/
+
+# Operating systems
+.DS_Store
+Thumbs.db
+desktop.ini

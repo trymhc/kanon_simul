@@ -4,7 +4,7 @@ A Raspberry Pi 5 treat cannon for dogs. A camera spots the dog with YOLO, a pan/
 
 This repository currently holds the **simulator**: the full control logic running against a virtual dog, camera, servos and flywheels, so the system can be developed and tuned before any hardware is wired up.
 
-![Simulation output](C:/Users/thcol/Documents/Godbit_simul/simulering.png)
+![Simulation output](docs/simulering.png)
 
 > Code, comments and command-line output are in Norwegian. The class and option names are explained below.
 
